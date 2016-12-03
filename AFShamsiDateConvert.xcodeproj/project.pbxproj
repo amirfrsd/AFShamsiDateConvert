@@ -14,6 +14,7 @@
 		29EFDE821DF326620010517C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29EFDE801DF326620010517C /* LaunchScreen.storyboard */; };
 		29EFDE8D1DF326620010517C /* AFShamsiDateConvertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EFDE8C1DF326620010517C /* AFShamsiDateConvertTests.swift */; };
 		29EFDE981DF326620010517C /* AFShamsiDateConvertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EFDE971DF326620010517C /* AFShamsiDateConvertUITests.swift */; };
+		29EFDEA61DF326760010517C /* AFShamsiDateConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EFDEA51DF326760010517C /* AFShamsiDateConvert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		29EFDE931DF326620010517C /* AFShamsiDateConvertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFShamsiDateConvertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29EFDE971DF326620010517C /* AFShamsiDateConvertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFShamsiDateConvertUITests.swift; sourceTree = "<group>"; };
 		29EFDE991DF326620010517C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29EFDEA51DF326760010517C /* AFShamsiDateConvert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFShamsiDateConvert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		29EFDE761DF326620010517C /* AFShamsiDateConvert */ = {
 			isa = PBXGroup;
 			children = (
+				29EFDEA51DF326760010517C /* AFShamsiDateConvert.swift */,
 				29EFDE771DF326620010517C /* AppDelegate.swift */,
 				29EFDE791DF326620010517C /* ViewController.swift */,
 				29EFDE7B1DF326620010517C /* Main.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29EFDE7A1DF326620010517C /* ViewController.swift in Sources */,
+				29EFDEA61DF326760010517C /* AFShamsiDateConvert.swift in Sources */,
 				29EFDE781DF326620010517C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,7 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let shamsiDateConvertor = AFShamsiDateConvert()
+        print(shamsiDateConvertor.persianToGregorian(dateString: "1395/09/13"))
+        print(shamsiDateConvertor.gregorianToPersian(dateString: "2016/12/03"))
     }
 
     override func didReceiveMemoryWarning() {
